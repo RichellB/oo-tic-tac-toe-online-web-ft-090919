@@ -103,6 +103,7 @@ end
   def winner(board)
     if won?(board)
       return board[won?(broad)[0]]
+      #not 100% clear as well
     end 
   end
 
