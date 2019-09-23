@@ -79,5 +79,9 @@ end
       #Not clear how this works - revise
     end 
   end
+  
+  def full?(board)
+    board.all? {|i| i == "X" || i == "O"}
+  end
 
 end
