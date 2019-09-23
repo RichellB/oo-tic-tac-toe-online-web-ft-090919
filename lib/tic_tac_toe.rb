@@ -50,6 +50,8 @@ end
   
   def valid_move?(board, index)
     if index.between?(0,8) && !position_taken?(board, index)   #if index is between 0 and 8 aka 1-9 and the position taken method does not return true (i.e the position is not taken), then it is a valid move
-      return true 
+      return true
+    end 
+  end
   
 end
