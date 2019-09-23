@@ -37,7 +37,6 @@ class TicTacToe
     else 
       return true 
     end
-    
   end
  
   def display_board
