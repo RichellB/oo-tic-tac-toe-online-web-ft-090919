@@ -99,5 +99,11 @@ end
       return true 
     end 
   end
+  
+  def winner(board)
+    if won?(board)
+      return board[won?(broad)[0]]
+    end 
+  end
 
 end
