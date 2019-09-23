@@ -37,7 +37,7 @@ end
   end
   
   def move(board, index, player = "X")
-    board[index] = token
+    board[index] = player
   end
   
   def postion_taken?(board, index)
