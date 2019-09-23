@@ -27,7 +27,8 @@ class TicTacToe
     string.to_i - 1
   end
   
-  def move(board, token = "X")
+  def move(board, index, token = "X")
+    board[index] = token
   end
   
   def postion_taken?
