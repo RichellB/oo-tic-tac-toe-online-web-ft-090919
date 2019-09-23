@@ -36,7 +36,7 @@ end
     user_input.to_i - 1
   end
   
-  def move(board, index, token = "X")
+  def move(board, index, player = "X")
     board[index] = token
   end
   
